@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: guestbook
 data:
-  hostname: jonatas
-  redis_master_service_host: redis-master
-  redis_master_service_port: 6379
-  redis_master_port: 6379
+  hostname: "jonatas"
+  redis_master_service_host: "redis-master"
+  redis_master_service_port: "6379"
+  redis_master_port: "6379"
